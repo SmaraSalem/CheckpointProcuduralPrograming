@@ -1,0 +1,34 @@
+ALGORITHM prodScalaire
+
+
+VAR
+    PROCEDURE dot-product(ve1,ve2:FLOAT)
+    
+      vérif : FLOAT;
+
+    BEGIN
+
+      vérif := v1*v2    
+    END
+    couplVect:	STRUCT
+                        V1 : FLOAT;
+                        V2 : FLOAT;
+                    END_STRUCT
+
+   array_vect : ARRAY_OF couplVect[];
+   i , j : INTEGER ;
+   
+ BEGIN
+
+  l := array_vect.length;
+  FOR i FROM 0 TO l-1 STEP i++  DO
+        dot-product(array_vect(i).v1,array_vect(i).v2)
+
+     IF  ( vérif= 0 ) THEN
+         write ("lecouple des vecteurs",i "est orthogonaux")
+     END_IF
+  END_FOR
+
+
+
+ END
