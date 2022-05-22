@@ -25,7 +25,7 @@ VAR
         dot-product(array_vect(i).v1,array_vect(i).v2)
 
      IF  ( vérif= 0 ) THEN
-         write ("lecouple des vecteurs",i "est orthogonaux")
+         write ("lecouple des vecteurs",i , "est orthogonaux")
      END_IF
   END_FOR
 
